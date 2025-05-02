@@ -1,0 +1,148 @@
+/* Reset and base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 26px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-items li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 12px;
+}
+
+.navbar-items a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background-image: url('/images/hero.png');
+  height: 500px;
+  padding-top: 219px;
+  padding-left: 103px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 35px;
+  padding: 12px 30px;
+  background: #52647E;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* About Me */
+.me {
+  padding: 40px 60px;
+}
+
+.about-list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}
+
+/* Journey */
+.journey {
+  background: #618379;
+  padding: 57px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+
+.journey-list {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.journey-card {
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  color: gray;
+}
+
+.journey-image {
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+/* Goals Section */
+.goals {
+  background: #F2F2F2;
+  padding: 50px 60px;
+}
+
+.goals h2 {
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.goals-list {
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.goals-list li {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background: #333232;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.about-section {
+  border: 50px solid rgb(49, 30, 61); /* thin black outline */
+  padding: 30px;
+  margin: 40px 10%;
+  border-radius: 15px; /* optional: smooth corners */
+  background-color: white; /* optional: keeps text clear */
+}
