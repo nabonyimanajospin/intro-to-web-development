@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <title>Learn - Get Started Today</title>
@@ -8,93 +7,85 @@
   <!-- CSS -->
   <link rel="stylesheet" href="main.css" />
 </head>
-
 <body>
   <!-- Navbar section -->
   <nav class="navbar">
     <div class="navbar-logo">
-      <img src="./images/logo.png" width="300" /> 
+      <img src="./images/logo.png" width="300" />
     </div>
     <ul class="navbar-items">
-      <li> <a href="#About Me">About Me</a></li>
+      <li><a href="#about-me">About Me</a></li>
       <li><a href="#coding-journey">Journey</a></li>
-      <li>Goals</li>
+      <li><a href="#goals">Goals</a></li>
     </ul>
   </nav>
+
   <!-- Hero section -->
   <div class="hero">
-    <h1>
-      Hello! <br />
-      I'm Jospin Nabonyimana
-    </h1>
+    <h1>Hello! <br />I'm Jospin Nabonyimana</h1>
     <p>A web developer</p>
     <a href="mailto:jospinnabonyimana@gmail.com">
       <button>Contact Me</button>
     </a>
   </div>
 
+  <!-- About Me section -->
+  <div id="about-me" class="about-section">
+    <h3>About Me</h3>
+    <p>Hey! I'm <strong>Jospin Nabonyimana</strong>, a passionate web developer who loves turning ideas into beautiful, functional web experiences.</p>
+    <ul class="about-list">
+      <li>💻 Focused on front-end & back-end development</li>
+      <li>⚙️ Experienced with HTML, CSS, JavaScript, and React</li>
+      <li>🚀 Always learning, always building</li>
+    </ul>
+    <p>Crafted this site to share my journey & inspire others. Let's connect and code the future!</p>
+  </div>
 
-  <!-- About me section -->
-  <div class="Me">
-    <h3 id="About Me">About Me</h3>
-   
-      
-      <p>Hey! I'm <strong>Jospin Nabonyimana</strong>, a passionate web developer who loves turning ideas into beautiful, functional web experiences.</p>
-      <ul style="list-style: none; padding: 0; margin: 10px 0;">
-        <li>💻 Focused on front-end & back-end development</li><br />
-        <li>⚙️ Experienced with HTML, CSS, JavaScript, and React</li><br />
-        <li>🚀 Always learning, always building</li><br />
-      </ul>
-      <p>Crafted this site to share my journey & inspire others. Let's connect and code the future!</p>
-    </div>
-    
-
-
-  <!-- Coding journey section -->
+  <!-- Coding Journey section -->
   <div id="coding-journey" class="journey">
     <h2>Coding Journey</h2>
-  
     <div class="journey-list">
       <div id="intro" class="journey-card">
-        <img
-          src="/images/intro-to-web.png"
-          class="journey-image"
-          alt="Course Image"
-        />
+        <img src="/images/intro-to-web.png" class="journey-image" alt="Course Image" />
         <div>
           <h3>Intro To Web Development</h3>
-          <p>
-            Learned how to build <br />Web Html Projects
-          </p>
+          <p>Learned how to build <br />Web HTML Projects</p>
         </div>
       </div>
-  
+
       <div id="react" class="journey-card">
         <img src="/images/react.png" class="journey-image" alt="Course Image" />
         <div>
           <h3>React Development</h3>
-          <p>
-            Learned how to build <br />Single Page Application
-          </p>
+          <p>Learned how to build <br />Single Page Applications</p>
         </div>
       </div>
-  
+
       <div id="backend" class="journey-card">
         <img src="/images/backend.png" class="journey-image" alt="Course Image" />
         <div>
           <h3>Back-end Development</h3>
-          <p>
-            Learned how to build <br />Back-end services
-          </p>
+          <p>Learned how to build <br />Back-end services</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Footer section -->
+
+  <!-- Goals Section -->
+  <div id="goals" class="goals">
+    <h2>My Goals</h2>
+    <ul class="goals-list">
+      <li>🌟 Become a full-stack web developer</li>
+      <li>📚 Master modern JavaScript frameworks</li>
+      <li>🌐 Launch my own web development portfolio</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
   <footer>
     <p>Website Made By Jospin Nabonyimana</p>
   </footer>
+
   <script src="./script.js"></script>
 </body>
-
 </html>
