@@ -1,4 +1,4 @@
-/* Removes unwanted styling from the page */
+/* Reset and base styles */
 *,
 *::before,
 *::after {
@@ -10,7 +10,7 @@
   max-width: 100%;
 }
 
-/* Write your code below this */
+/* Navbar */
 .navbar {
   width: 100%;
   padding: 26px 60px;
@@ -18,12 +18,19 @@
   justify-content: space-between;
 }
 
-li {
+.navbar-items li {
   display: inline-block;
   list-style-type: none;
   margin: 0 12px;
 }
 
+.navbar-items a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero */
 .hero {
   background-image: url('/images/hero.png');
   height: 500px;
@@ -42,9 +49,25 @@ button {
   background: #52647E;
   color: white;
   border-radius: 10px;
+  cursor: pointer;
 }
 
+/* About Me */
+.me {
+  padding: 40px 60px;
+}
 
+.about-list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}
+
+/* Journey */
 .journey {
   background: #618379;
   padding: 57px 0;
@@ -61,7 +84,7 @@ h2 {
 .journey-list {
   display: flex;
   width: 80%;
-  margin: 0 10%;
+  margin: 0 auto;
   justify-content: space-between;
 }
 
@@ -70,7 +93,7 @@ h2 {
   background-color: white;
   padding: 25px;
   border-radius: 40px;
-  color:gray;
+  color: gray;
 }
 
 .journey-image {
@@ -85,13 +108,41 @@ h3 {
   color: black;
 }
 
+/* Goals Section */
+.goals {
+  background: #F2F2F2;
+  padding: 50px 60px;
+}
 
+.goals h2 {
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.goals-list {
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.goals-list li {
+  margin-bottom: 15px;
+}
+
+/* Footer */
 footer {
   background: #333232;
   text-align: center;
   color: white;
   padding: 30px;
 }
-.me{
-  padding: 
+
+.about-section {
+  border: 50px solid rgb(49, 30, 61); /* thin black outline */
+  padding: 30px;
+  margin: 40px 10%;
+  border-radius: 15px; /* optional: smooth corners */
+  background-color: white; /* optional: keeps text clear */
 }
